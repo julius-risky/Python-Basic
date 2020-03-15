@@ -10,6 +10,5 @@ def main():
     print("bilangan yang dimasukkan adala %d" %bil)
     print("%d + 11 = %d" %(bil,hasil)) 
     
-
 if __name__ =="__main__":
     main()
