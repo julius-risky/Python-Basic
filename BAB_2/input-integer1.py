@@ -1,7 +1,6 @@
 def main():
     #membuat input data string
     s = input("masukkan bilangan bulat: ")
-
     Bilbulat = int(s)
     hasil = Bilbulat + 11
 
