@@ -12,6 +12,7 @@ def main():
     d['Nim']=input("Tulis Nim kamu: ")
     d['hobi']=input("tulis hobimu: ")
     print("\ndata sesudah di modif :",d)
+
     #menghapus elemen dari dictionary
     del d['alamat']
     print("update data: ",d)
