@@ -26,11 +26,9 @@ def main():
     #menghapus
     s.remove(11)
     printElements(s,"seteleh s.remove(): ")
-
     #menghapus semua anggota
     s.clear()
     printElements(s, "setelah clear()")
-
 
 if __name__ == "__main__":
     main()
