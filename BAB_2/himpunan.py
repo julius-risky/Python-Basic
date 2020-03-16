@@ -9,7 +9,6 @@ print("gabungan: ", a)
 #intersection atau irisan
 b = x & y
 print("irisan: ",b)
-
 #difference atau selisih
 c = x - y
 print("selisih: ",c)
