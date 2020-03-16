@@ -7,7 +7,6 @@ def main():
     yyyy = today[:4]
     mm = today[5:7]
     dd = today[8:]
-
     print(today)
     print("%s %s %s"% (dd,bulan[int(mm)-1],yyyy))
 
