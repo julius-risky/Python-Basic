@@ -28,5 +28,6 @@ def main():
     print("menghapus dengan pop: ",nilai)
     nilai.clear()
     print("menghapus semua isi list: ",nilai)
+
 if __name__ == "__main__":
     main()
