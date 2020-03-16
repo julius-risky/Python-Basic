@@ -7,9 +7,8 @@ def main():
     y = 1.664
     z = statistics.mean(x)
     a = y * z
-    bahasa = "hallo kamu"
+    bahasa = "hallo dunia"
     kalimat = " apa kabar"
-
     #menampilkan nilai variable ke layar
     print(x)
     print(y)
