@@ -23,6 +23,7 @@ def main():
     #metode update()
     s.update([88,99])
     printElements(s,"setelah panggilan update()")
+    
     #menghapus
     s.remove(11)
     printElements(s,"seteleh s.remove(): ")
