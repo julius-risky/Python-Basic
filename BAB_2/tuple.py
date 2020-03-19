@@ -10,5 +10,6 @@ def main():
     print(today)
     print("%s %s %s"% (dd,bulan[int(mm)-1],yyyy))
 
+    
 if __name__ == "__main__":
     main()
