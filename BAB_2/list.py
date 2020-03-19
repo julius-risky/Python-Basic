@@ -16,9 +16,11 @@ def main():
     #mengubah nilai
     nilai[0]=10
     print("sesudah diubah: ",nilai)
+    
     #mencari indeks
     a = nilai.index(500)
     print("500 berada pada indeks %d" %a)
+    
     #menghapus nilai list
     nilai.remove(200)
     nilai.remove('buah')
