@@ -34,5 +34,6 @@ def main():
     print(day(today)) 
     print(month(today))
     print(year(today))
+    
 if __name__ == "__main__":
     main()
