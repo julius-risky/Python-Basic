@@ -5,4 +5,10 @@ def cetak(*var):
 def main():
     #memanggil fungsi
     print("satu parameter")
-    cet
+    cetak(10)
+    print("\n Dua parameter")
+    cetak(15,18)
+    print("\n Tiga parameter")
+    cetak(14,10,5)
+if __name__ == "__main__":
+    main()
