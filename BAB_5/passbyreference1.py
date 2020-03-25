@@ -3,7 +3,11 @@ def ubahnilai(p):
     print("p lama \t\t: %d"%p)
     print("ID P lama\t: %d"%id(p))
 
-    
+    p *= 100
+    print("\n p baru\t\t: %d"%p)
+    print("ID P Baru\t: %d"%id(p))
+    return
+
 def main():
     a = 5
     print("sebelum pemanggilan fungsi")
