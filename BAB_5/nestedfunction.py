@@ -1,14 +1,14 @@
 import time
 
 def hitungMundur(n):
-    li=[n]
+    #li=[n]
     def next():
         nonlocal n
-        r = li[0]
-        li[0] -= 1
+        r = n #n bisa diganti li[0]
+        n -= 1
         return r
     return next
-
+ 
 def main():
     #memanggil fungsi hitungmundur
     a = int(input('masukkan waktu hitung mundur: '))
