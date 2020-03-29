@@ -13,5 +13,7 @@ def main():
         print("EROR: Bilangan tidak boleh negatif")
         sys.exit(1)
     
+    print("%d! \t= %d"%(bil,faktorial(bil)))
 
+if __name__ == "__main__":
     main()
