@@ -7,4 +7,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-#fungsi untuk memberikaan pembatas di kiri kanan string
+#fungsi untuk memberikaan pembatas di kiri kanan string atar memberikan string di tengah
