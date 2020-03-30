@@ -10,3 +10,4 @@ def main():
     print("jumlah (4,5,6)\t= ",jumlah(4,5,6))
 if __name__ == "__main__":
     main()
+    
