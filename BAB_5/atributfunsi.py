@@ -17,5 +17,6 @@ def main():
     print("kali.doc\t:",kali.doc)
     print("kali.tgl\t:",kali.tgl)
     print(kali.__dict__)
-
+if __name__ == "__main__":
+    main()
 
