@@ -6,3 +6,4 @@ if __name__ == "__main__":
     main()
 
 #fungsi untuk membuat huruf awal menjadi kapital
+
