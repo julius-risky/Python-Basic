@@ -6,5 +6,6 @@ def main():
     print("str.find'o',5: ",str.find('o',5))
     print("str.find('world')",str.find('world'))
 
+
 if __name__ == "__main__":
     main()
