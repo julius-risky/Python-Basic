@@ -8,5 +8,6 @@ def main():
     print("huruf 'o' dalam str: ",b)
     print("huruf 'l' dari indeks 1-6: ", c)
 
+
 if __name__ == "__main__":
     main()
