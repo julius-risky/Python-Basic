@@ -6,5 +6,6 @@ def main():
     print("str.indeks('o',5)",str.indeks('o',5))
     print("str.indeks('world')",str.indeks('world'))
 
+
 if __name__ == "__main__":
     main()
