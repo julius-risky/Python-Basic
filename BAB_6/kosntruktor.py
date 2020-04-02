@@ -23,5 +23,6 @@ def main():
     print("object pertama")
     kotak1.cetakData()
     kotak1.cetakVolume()
+
 if __name__ == "__main__":
     main()
