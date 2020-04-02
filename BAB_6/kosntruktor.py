@@ -23,9 +23,5 @@ def main():
     print("object pertama")
     kotak1.cetakData()
     kotak1.cetakVolume()
-    print("\n object kedua")
-    kotak2 = kotak(12,9,7)
-    kotak2.cetakData()
-    kotak2.cetakVolume()
 if __name__ == "__main__":
     main()
