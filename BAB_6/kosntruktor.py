@@ -18,11 +18,14 @@ class kotak(object):
         print("Volume\t: ",self.hitungvolume())
 
 def main():
+    #membut object pertama dengan konstruktor tanpa parameter
     kotak1 = kotak() 
     kotak1.setdata(8,4,2)
     print("object pertama")
     kotak1.cetakData()
     kotak1.cetakVolume()
+
+    #membuat object kedua dengan konstruktor berparameter
     print("\n object kedua")
     kotak2 = kotak(12,9,7)
     kotak2.cetakData()
