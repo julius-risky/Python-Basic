@@ -15,5 +15,12 @@ def main():
     print("tinggi\t: ",kotak1.tinggi)
     print("Volume\t: ",kotak1.hitungvolume())
 
+    #membuat object ke-2
+    kotak2 = kotak(10,5,4)
+    print("\nobject kotak2")
+    print("Panjang\t: ",kotak2.panjang)
+    print("lebar\t: ",kotak2.lebar)
+    print("tinggi\t: ",kotak2.tinggi)
+    print("Volume\t: ",kotak2.hitungvolume())
 if __name__ == "__main__":
     main()
