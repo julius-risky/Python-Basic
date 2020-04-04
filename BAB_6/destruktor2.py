@@ -9,3 +9,8 @@ class myfile(object):
     def bacadata(self):
         for baris in self.file:
             print(baris,end='')
+
+def main():
+ 
+if __name__ == "__main__":
+    main()
