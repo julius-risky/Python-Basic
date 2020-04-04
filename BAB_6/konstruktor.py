@@ -25,6 +25,7 @@ def main():
     kotak1.cetakData()
     kotak1.cetakVolume()
 
+
     #membuat object kedua dengan konstruktor berparameter
     print("\n object kedua")
     kotak2 = kotak(12,9,7)
