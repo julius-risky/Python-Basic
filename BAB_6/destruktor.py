@@ -22,5 +22,12 @@ def main():
     kotak1.cetakData()
     kotak1.cetakVolume()
 
+    print("\n object kedua")
+    kotak2 = kotak(12,9,7)
+    kotak2.cetakData()
+    kotak2.cetakVolume()
+    #menghapus object aau menutup
+    del kotak2
+    kotak2()
 if __name__ == "__main__":
     main()
