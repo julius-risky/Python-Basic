@@ -8,3 +8,6 @@ class myfile(object):
         for baris in self.file:
             print(baris,end='')
 
+
+if __name__ == "__main__":
+    main()
