@@ -14,3 +14,13 @@ class kotak(object):
         print("tinggi\t: ",self.tinggi)
     def cetakVolume(self):
         print("Volume\t: ",self.hitungvolume())
+
+def main():
+
+    kotak1 = kotak(8,4,2) 
+    print("object pertama")
+    kotak1.cetakData()
+    kotak1.cetakVolume()
+
+if __name__ == "__main__":
+    main()
