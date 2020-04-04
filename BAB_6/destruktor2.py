@@ -11,6 +11,11 @@ class myfile(object):
             print(baris,end='')
 
 def main():
- 
+    #membuat object dari kelas myfile
+    f = myfile("F:\\python-buku_budi_raharjo\\BAB_6\\sample.txt")
+    
+    #memanggil baca data
+    f.bacadata()
+
 if __name__ == "__main__":
     main()
