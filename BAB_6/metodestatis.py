@@ -19,3 +19,23 @@ class kotak(object):
         if kotak.objectCunter >=1:
             print() #baris baru
             print("KOTAK KE-",kotak.objectCunter)
+
+def main():
+
+    kotak1 = kotak(8,4,2) 
+    kotak.cetakJudul()
+    kotak1.cetakData()
+    kotak1.cetakVolume()
+
+    kotak2 = kotak(12,9,7)
+    kotak.cetakJudul()
+    kotak2.cetakData()
+    kotak2.cetakVolume()
+
+    kotak3= kotak(19,8,7)
+    kotak.cetakJudul()
+    kotak3.cetakData()
+    kotak3.cetakVolume()
+
+if __name__ == "__main__":
+    main()
