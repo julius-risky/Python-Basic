@@ -14,3 +14,16 @@ class Titik(object):
     def getx(self):
         return self.__x
 
+def main():
+    #membuat object titik
+    A = Titik()
+
+    #memasukkan nilai __x dan __y dalam A
+    A.setx(4)
+    A.sety(5)
+
+    #mengambil nilai __x dan __y di dalam A
+    print("A(%d, %d)"%(A.getx(),A.gety()))
+
+if __name__ == "__main__":
+    main()
