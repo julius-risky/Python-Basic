@@ -14,3 +14,19 @@ class tanggal(object):
         BULAN = ["januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"]
         print("%d %s %d"%(self.hari,BULAN[self.bulan-1],self.tahun))
     
+
+def main():
+    #membuat object dari kelas tanggal
+    #menggunakan cara umum
+    obj1 = tanggal(19,8,2020)
+
+    #membuat object dari kelas tanggal dengan metde kelas
+    obj2 = tanggal.daristring("13-7-2020")
+
+    print("tanggal obj1: ",end='')
+    obj1.cetaktanggal()
+    print("tanggal obj2: ",end='')
+    obj2.cetaktanggal()
+if __name__ == "__main__":
+    main()
+    
