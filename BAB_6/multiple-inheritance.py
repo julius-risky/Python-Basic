@@ -17,3 +17,12 @@ class anak (induk1,induk2):
         self.c = c
     def cetakC(self):
         print("Nilai C = ",self.c)
+
+def main():
+    obj = anak(111,222,333)
+
+    obj.cetakA()
+    obj.cetakB()
+    obj.cetakC()
+if __name__ == "__main__":
+    main()
