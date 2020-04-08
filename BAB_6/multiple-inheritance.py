@@ -10,3 +10,10 @@ class induk2(object):
     def cetakB(self):
         print("nilai b = ",self.b)
 
+class anak (induk1,induk2):
+    def __init__(self,a,b,c):
+        induk1.__init__(self,a)
+        induk2.__init__(self,b)
+        self.c = c
+    def cetakC(self):
+        print("Nilai C = ",self.c)
