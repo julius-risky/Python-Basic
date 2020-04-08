@@ -20,3 +20,13 @@ def main():
         )
         """
     
+    #mengeksekusi perintah sql
+    #membuat tabel buku
+    cur.execute(ddl)
+
+    #menutup object cursor dari koneksi
+    cur.close()
+    mariadb_connection.close()
+
+if __name__ == "__main__":
+    main()
